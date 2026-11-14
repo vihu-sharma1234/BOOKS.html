@@ -1,0 +1,47 @@
+<h1>Book Donation Form</h1>
+
+<form>
+
+  <!-- PART 1: Donor Details -->
+  <fieldset>
+    <legend>Donor Details</legend>
+    <label>Your Name</label><br>
+    <input type="text"><br>
+    <label>Donor ID</label><br>
+    <input type="password"><br>
+    <label>Donation Date</label><br>
+    <input type="date"><br>
+  </fieldset>
+
+  <!-- PART 2: Book Details -->
+  <fieldset>
+    <legend>Book Details</legend>
+    <label>Book Category</label><br>
+    <select>
+      <option>Fiction</option>
+      <option>Science</option>
+      <option>History</option>
+      <option>Education</option>
+    </select><br>
+
+    <label>Book Condition</label><br>
+    <input type="radio" name="condition"> Like New<br>
+    <input type="radio" name="condition"> Good<br>
+    <input type="radio" name="condition"> Used<br>
+
+    <!-- PART 3: Title or notes -->
+    <label>Book Title or Notes</label><br>
+    <textarea rows="3" cols="35"></textarea><br>
+  </fieldset>
+
+  <!-- PART 4: Drop-off days and button -->
+  <fieldset>
+    <legend>Drop-Off Day</legend>
+    <input type="checkbox"> Monday<br>
+    <input type="checkbox"> Wednesday<br>
+    <input type="checkbox"> Friday<br>
+  </fieldset>
+
+  <input type="submit" value="Donate My Book">
+
+</form>
